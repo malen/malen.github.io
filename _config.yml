@@ -1,0 +1,52 @@
+# Basic
+title: Ma
+subtitle: 个人技术博客
+welcome_message: 欢迎了解更多。
+description:  嗨，我是Ma，一名开发者。
+creator: Ma
+
+url: "https://malen.github.io"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: 访问博客
+
+tag_button:
+    title: 标签
+    description: 技术文章分类
+    url: 'https://malen.github.io/tag/'  
+
+# Navigation buttons in the front page.
+nav:
+    #- {title: 简历, description: 我的简历, url: 'https://github.com/malen'}
+    - {title: Git, description: 个人代码, url: 'https://github.com/malen'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: 
+    # duoshuo: 
+    
+# Social
+social:
+    github: malen
+    mail: malen.ma@gmail.com
+
+# Google Analytics
+ga:
+     id: G-D79HG37MG2
+     host: auto
